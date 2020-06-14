@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video ile seyfe</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Asar|Caudex|Cormorant|Cormorant+Garamond|Cormorant+Infant|Cormorant+SC|Cormorant+Unicase|Cormorant+Upright|Domine|EB+Garamond|Judson|Libre+Baskerville|Maitree|Merriweather|Noticia+Text|Noto+Serif|Old+Standard+TT|Podkova|Pridi|Rasa|Rokkitt|Taviraj|Tinos|Trirong|Yrsa&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="home">
+  	<video src="bg_video.mp4" id="home_bg_video" autoplay loop muted></video>
+  	
+  		<!-- 	navbar -->
+  		<div class="container-flur">
+  		<header>
+  			<div class="logo">
+			<a href="#">LO<span>G</span>O</a>
+		   </div>
+  			    <nav>
+             <ul>
+                <li><a href="#" class="active">Ana Səhifə</a></li>
+                <li><a href="#about">Haqqımızda</a></li>
+                <li><a href="registr.html" target="blank">Qeydiyyat</a></li>
+                <li><a href="#contact">Əlaqə</a></li>
+              </ul>
+            </nav>
+          <div class="menu-toggle">
+            <i class="fa fa-bars" aria-hidden="true">MENU </i>
+          </div>
+  		</header>
+  		</div>
+       <!--  end navbar -->
+  		<div class="container">
+  			<div class="home-content">
+                 <div class="home-content-inner" class="text-left">
+
+  					<!-- header text -->
+  					<div class="home-heading">
+  						<h1 class="home-heading1">MÜASİR</h1>
+  						<h1 class="home-heading2">HƏYATİN <span>SEÇİMİ</span> </h1>
+  					</div>
+
+                    <!--  text -->
+  					<!-- <div class="home-text">
+  						<p>hdddddddddddddddddddddddddddddddddddddddddddddddddddj</p>
+  					</div> -->
+
+  					<!-- button -->
+  					<div class="home-btn">
+  						<a href="" class="btn btn-general" role="button">Ətraflı</a>
+  					</div>
+
+  				</div>
+  			</div>
+       <!--  social link -->
+  				<div class="social-links">
+						  <ul>
+						  	<li>
+						  		<a href="#"><span class="fa fa-facebook"></span></a>
+						  	</li>
+						  	<li>
+						  		<a href="#"><span class="fa fa-linkedin"></span></a>
+						  	</li>
+						  	<li>
+						  		<a href="#"><span class="fa fa-youtube"></span></a>
+						  	</li>
+						  </ul>	
+		        </div>
+  		    
+
+  		</div>
+  </section>
+
+  <section id="about" class="about">
+<div class="container">
+    <div class="box">
+      <div class="icon">01</div>
+      <div class="content">
+        <h3>Haqqımızda</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icon">02</div>
+      <div class="content">
+        <h3>Xidmətlər</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="icon">03</div>
+      <div class="content">
+        <h3>Proyektlər</h3>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+  <section class="footer">
+  <footer class="text-muted">
+
+    <div class="container">
+      <p class="float-right">
+        <a href="#" class="backtotop"><i class="fa fa-chevron-circle-up " aria-hidden="true" ></i></a>
+      </p>
+    </div>
+     <span class="copyright">Copyright &copy; 2020 Gulbahar Jafarova. Bütün hüquqlar qorunur.</span>
+  </footer>
+
+  </section>
+     <script src="js/jquery-3.4.1.min.js"></script>
+     <script src="js/index.js"></script>
+   
+    
+</body>
+</html>
